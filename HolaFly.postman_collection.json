@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "3bbe0fd8-4ae5-423d-8d17-987a8b7d70e4",
+		"name": "HolaFly",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26064339"
+	},
+	"item": [
+		{
+			"name": "/hfswapi/getPeople/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4567/hfswapi/getPeople/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"hfswapi",
+						"getPeople",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/hfswapi/getPeople/:id?format=wookiee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4567/hfswapi/getPeople/:id?format=wookiee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"hfswapi",
+						"getPeople",
+						":id"
+					],
+					"query": [
+						{
+							"key": "format",
+							"value": "wookiee"
+						}
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/hfswapi/getPlanet/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4567/hfswapi/getPlanet/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"hfswapi",
+						"getPlanet",
+						":id"
+					],
+					"query": [
+						{
+							"key": "format",
+							"value": "wookiee",
+							"disabled": true
+						}
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/hfswapi/getWeightOnPlanetRandom",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4567/hfswapi/getWeightOnPlanetRandom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"hfswapi",
+						"getWeightOnPlanetRandom"
+					],
+					"query": [
+						{
+							"key": "format",
+							"value": "wookiee",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/hfswapi/getLogs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4567/hfswapi/getLogs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"hfswapi",
+						"getLogs"
+					],
+					"query": [
+						{
+							"key": "format",
+							"value": "wookiee",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
